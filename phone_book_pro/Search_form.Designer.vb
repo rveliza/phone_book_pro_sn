@@ -40,9 +40,9 @@ Partial Class Search_form
         Me.id_TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label9 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.id_search_TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.info_groupbox.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -77,6 +77,7 @@ Partial Class Search_form
         Me.comment_TextBox8.Location = New System.Drawing.Point(131, 313)
         Me.comment_TextBox8.Multiline = True
         Me.comment_TextBox8.Name = "comment_TextBox8"
+        Me.comment_TextBox8.ReadOnly = True
         Me.comment_TextBox8.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.comment_TextBox8.Size = New System.Drawing.Size(209, 82)
         Me.comment_TextBox8.TabIndex = 15
@@ -94,6 +95,7 @@ Partial Class Search_form
         '
         Me.address_TextBox7.Location = New System.Drawing.Point(131, 276)
         Me.address_TextBox7.Name = "address_TextBox7"
+        Me.address_TextBox7.ReadOnly = True
         Me.address_TextBox7.Size = New System.Drawing.Size(209, 22)
         Me.address_TextBox7.TabIndex = 13
         '
@@ -110,6 +112,7 @@ Partial Class Search_form
         '
         Me.email_TextBox6.Location = New System.Drawing.Point(131, 242)
         Me.email_TextBox6.Name = "email_TextBox6"
+        Me.email_TextBox6.ReadOnly = True
         Me.email_TextBox6.Size = New System.Drawing.Size(209, 22)
         Me.email_TextBox6.TabIndex = 11
         '
@@ -126,6 +129,7 @@ Partial Class Search_form
         '
         Me.cell_TextBox5.Location = New System.Drawing.Point(131, 205)
         Me.cell_TextBox5.Name = "cell_TextBox5"
+        Me.cell_TextBox5.ReadOnly = True
         Me.cell_TextBox5.Size = New System.Drawing.Size(209, 22)
         Me.cell_TextBox5.TabIndex = 9
         '
@@ -142,6 +146,7 @@ Partial Class Search_form
         '
         Me.tel_TextBox4.Location = New System.Drawing.Point(131, 165)
         Me.tel_TextBox4.Name = "tel_TextBox4"
+        Me.tel_TextBox4.ReadOnly = True
         Me.tel_TextBox4.Size = New System.Drawing.Size(209, 22)
         Me.tel_TextBox4.TabIndex = 7
         '
@@ -158,6 +163,7 @@ Partial Class Search_form
         '
         Me.ln_TextBox3.Location = New System.Drawing.Point(131, 126)
         Me.ln_TextBox3.Name = "ln_TextBox3"
+        Me.ln_TextBox3.ReadOnly = True
         Me.ln_TextBox3.Size = New System.Drawing.Size(209, 22)
         Me.ln_TextBox3.TabIndex = 5
         '
@@ -175,6 +181,7 @@ Partial Class Search_form
         Me.fn_TextBox2.AcceptsReturn = True
         Me.fn_TextBox2.Location = New System.Drawing.Point(131, 90)
         Me.fn_TextBox2.Name = "fn_TextBox2"
+        Me.fn_TextBox2.ReadOnly = True
         Me.fn_TextBox2.Size = New System.Drawing.Size(209, 22)
         Me.fn_TextBox2.TabIndex = 3
         '
@@ -191,6 +198,7 @@ Partial Class Search_form
         '
         Me.id_TextBox1.Location = New System.Drawing.Point(131, 57)
         Me.id_TextBox1.Name = "id_TextBox1"
+        Me.id_TextBox1.ReadOnly = True
         Me.id_TextBox1.Size = New System.Drawing.Size(209, 22)
         Me.id_TextBox1.TabIndex = 1
         '
@@ -206,7 +214,7 @@ Partial Class Search_form
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.Button1)
-        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.id_search_TextBox1)
         Me.GroupBox1.Controls.Add(Me.Label9)
         Me.GroupBox1.Location = New System.Drawing.Point(46, 4)
         Me.GroupBox1.Name = "GroupBox1"
@@ -214,22 +222,6 @@ Partial Class Search_form
         Me.GroupBox1.TabIndex = 3
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Search"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(131, 45)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(128, 22)
-        Me.TextBox1.TabIndex = 17
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(102, 45)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(23, 16)
-        Me.Label9.TabIndex = 16
-        Me.Label9.Text = "ID:"
         '
         'Button1
         '
@@ -240,6 +232,22 @@ Partial Class Search_form
         Me.Button1.Text = "Search"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'id_search_TextBox1
+        '
+        Me.id_search_TextBox1.Location = New System.Drawing.Point(131, 45)
+        Me.id_search_TextBox1.Name = "id_search_TextBox1"
+        Me.id_search_TextBox1.Size = New System.Drawing.Size(128, 22)
+        Me.id_search_TextBox1.TabIndex = 17
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(102, 45)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(23, 16)
+        Me.Label9.TabIndex = 16
+        Me.Label9.Text = "ID:"
+        '
         'Search_form
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -247,7 +255,7 @@ Partial Class Search_form
         Me.ClientSize = New System.Drawing.Size(553, 610)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.info_groupbox)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MinimizeBox = False
         Me.Name = "Search_form"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -278,7 +286,7 @@ Partial Class Search_form
     Friend WithEvents id_TextBox1 As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents id_search_TextBox1 As TextBox
     Friend WithEvents Label9 As Label
     Friend WithEvents Button1 As Button
 End Class
