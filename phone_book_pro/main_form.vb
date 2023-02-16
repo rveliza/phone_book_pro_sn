@@ -25,4 +25,8 @@
         Me.Process1.StartInfo.FileName = "C:\Windows\System32\calc.exe"
         Me.Process1.Start()
     End Sub
+
+    Private Sub main_form_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
