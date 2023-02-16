@@ -24,103 +24,103 @@ Partial Class reg_data
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(reg_data))
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
-        Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
+        Me.new_butt = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
+        Me.save_butt = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.info_groupbox = New System.Windows.Forms.GroupBox()
+        Me.comment_TextBox8 = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.address_TextBox7 = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.email_TextBox6 = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.cell_TextBox5 = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.tel_TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.ln_TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.fn_TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.id_TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ToolStrip1.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
+        Me.info_groupbox.SuspendLayout()
         Me.SuspendLayout()
         '
         'ToolStrip1
         '
         Me.ToolStrip1.AutoSize = False
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripSeparator2, Me.ToolStripButton2, Me.ToolStripSeparator1})
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.new_butt, Me.ToolStripSeparator2, Me.save_butt, Me.ToolStripSeparator1})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Size = New System.Drawing.Size(556, 67)
         Me.ToolStrip1.TabIndex = 0
         Me.ToolStrip1.Text = "ToolStrip1"
         '
-        'ToolStripButton1
+        'new_butt
         '
-        Me.ToolStripButton1.Image = CType(resources.GetObject("ToolStripButton1.Image"), System.Drawing.Image)
-        Me.ToolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Size = New System.Drawing.Size(126, 64)
-        Me.ToolStripButton1.Text = "New Record"
+        Me.new_butt.Image = CType(resources.GetObject("new_butt.Image"), System.Drawing.Image)
+        Me.new_butt.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.new_butt.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.new_butt.Name = "new_butt"
+        Me.new_butt.Size = New System.Drawing.Size(126, 64)
+        Me.new_butt.Text = "New Record"
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
         Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 67)
         '
-        'ToolStripButton2
+        'save_butt
         '
-        Me.ToolStripButton2.Image = CType(resources.GetObject("ToolStripButton2.Image"), System.Drawing.Image)
-        Me.ToolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ToolStripButton2.Name = "ToolStripButton2"
-        Me.ToolStripButton2.Size = New System.Drawing.Size(76, 64)
-        Me.ToolStripButton2.Text = "Save"
+        Me.save_butt.Image = CType(resources.GetObject("save_butt.Image"), System.Drawing.Image)
+        Me.save_butt.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.save_butt.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.save_butt.Name = "save_butt"
+        Me.save_butt.Size = New System.Drawing.Size(124, 64)
+        Me.save_butt.Text = "Save Button"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
         Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 67)
         '
-        'GroupBox1
+        'info_groupbox
         '
-        Me.GroupBox1.Controls.Add(Me.TextBox8)
-        Me.GroupBox1.Controls.Add(Me.Label8)
-        Me.GroupBox1.Controls.Add(Me.TextBox7)
-        Me.GroupBox1.Controls.Add(Me.Label7)
-        Me.GroupBox1.Controls.Add(Me.TextBox6)
-        Me.GroupBox1.Controls.Add(Me.Label6)
-        Me.GroupBox1.Controls.Add(Me.TextBox5)
-        Me.GroupBox1.Controls.Add(Me.Label5)
-        Me.GroupBox1.Controls.Add(Me.TextBox4)
-        Me.GroupBox1.Controls.Add(Me.Label4)
-        Me.GroupBox1.Controls.Add(Me.TextBox3)
-        Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Controls.Add(Me.TextBox2)
-        Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Controls.Add(Me.TextBox1)
-        Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Location = New System.Drawing.Point(37, 90)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(457, 457)
-        Me.GroupBox1.TabIndex = 1
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Information"
+        Me.info_groupbox.Controls.Add(Me.comment_TextBox8)
+        Me.info_groupbox.Controls.Add(Me.Label8)
+        Me.info_groupbox.Controls.Add(Me.address_TextBox7)
+        Me.info_groupbox.Controls.Add(Me.Label7)
+        Me.info_groupbox.Controls.Add(Me.email_TextBox6)
+        Me.info_groupbox.Controls.Add(Me.Label6)
+        Me.info_groupbox.Controls.Add(Me.cell_TextBox5)
+        Me.info_groupbox.Controls.Add(Me.Label5)
+        Me.info_groupbox.Controls.Add(Me.tel_TextBox4)
+        Me.info_groupbox.Controls.Add(Me.Label4)
+        Me.info_groupbox.Controls.Add(Me.ln_TextBox3)
+        Me.info_groupbox.Controls.Add(Me.Label3)
+        Me.info_groupbox.Controls.Add(Me.fn_TextBox2)
+        Me.info_groupbox.Controls.Add(Me.Label2)
+        Me.info_groupbox.Controls.Add(Me.id_TextBox1)
+        Me.info_groupbox.Controls.Add(Me.Label1)
+        Me.info_groupbox.Location = New System.Drawing.Point(37, 90)
+        Me.info_groupbox.Name = "info_groupbox"
+        Me.info_groupbox.Size = New System.Drawing.Size(457, 457)
+        Me.info_groupbox.TabIndex = 1
+        Me.info_groupbox.TabStop = False
+        Me.info_groupbox.Text = "Information"
         '
-        'TextBox8
+        'comment_TextBox8
         '
-        Me.TextBox8.Location = New System.Drawing.Point(131, 313)
-        Me.TextBox8.Multiline = True
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBox8.Size = New System.Drawing.Size(209, 82)
-        Me.TextBox8.TabIndex = 15
+        Me.comment_TextBox8.Location = New System.Drawing.Point(131, 313)
+        Me.comment_TextBox8.Multiline = True
+        Me.comment_TextBox8.Name = "comment_TextBox8"
+        Me.comment_TextBox8.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.comment_TextBox8.Size = New System.Drawing.Size(209, 82)
+        Me.comment_TextBox8.TabIndex = 15
         '
         'Label8
         '
@@ -131,12 +131,12 @@ Partial Class reg_data
         Me.Label8.TabIndex = 14
         Me.Label8.Text = "Comment:"
         '
-        'TextBox7
+        'address_TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(131, 276)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(209, 22)
-        Me.TextBox7.TabIndex = 13
+        Me.address_TextBox7.Location = New System.Drawing.Point(131, 276)
+        Me.address_TextBox7.Name = "address_TextBox7"
+        Me.address_TextBox7.Size = New System.Drawing.Size(209, 22)
+        Me.address_TextBox7.TabIndex = 13
         '
         'Label7
         '
@@ -147,12 +147,12 @@ Partial Class reg_data
         Me.Label7.TabIndex = 12
         Me.Label7.Text = "Address:"
         '
-        'TextBox6
+        'email_TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(131, 242)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(209, 22)
-        Me.TextBox6.TabIndex = 11
+        Me.email_TextBox6.Location = New System.Drawing.Point(131, 242)
+        Me.email_TextBox6.Name = "email_TextBox6"
+        Me.email_TextBox6.Size = New System.Drawing.Size(209, 22)
+        Me.email_TextBox6.TabIndex = 11
         '
         'Label6
         '
@@ -163,12 +163,12 @@ Partial Class reg_data
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "Email:"
         '
-        'TextBox5
+        'cell_TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(131, 205)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(209, 22)
-        Me.TextBox5.TabIndex = 9
+        Me.cell_TextBox5.Location = New System.Drawing.Point(131, 205)
+        Me.cell_TextBox5.Name = "cell_TextBox5"
+        Me.cell_TextBox5.Size = New System.Drawing.Size(209, 22)
+        Me.cell_TextBox5.TabIndex = 9
         '
         'Label5
         '
@@ -179,12 +179,12 @@ Partial Class reg_data
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Cell:"
         '
-        'TextBox4
+        'tel_TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(131, 165)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(209, 22)
-        Me.TextBox4.TabIndex = 7
+        Me.tel_TextBox4.Location = New System.Drawing.Point(131, 165)
+        Me.tel_TextBox4.Name = "tel_TextBox4"
+        Me.tel_TextBox4.Size = New System.Drawing.Size(209, 22)
+        Me.tel_TextBox4.TabIndex = 7
         '
         'Label4
         '
@@ -195,12 +195,12 @@ Partial Class reg_data
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Tel:"
         '
-        'TextBox3
+        'ln_TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(131, 126)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(209, 22)
-        Me.TextBox3.TabIndex = 5
+        Me.ln_TextBox3.Location = New System.Drawing.Point(131, 126)
+        Me.ln_TextBox3.Name = "ln_TextBox3"
+        Me.ln_TextBox3.Size = New System.Drawing.Size(209, 22)
+        Me.ln_TextBox3.TabIndex = 5
         '
         'Label3
         '
@@ -211,12 +211,13 @@ Partial Class reg_data
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Last Name"
         '
-        'TextBox2
+        'fn_TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(131, 90)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(209, 22)
-        Me.TextBox2.TabIndex = 3
+        Me.fn_TextBox2.AcceptsReturn = True
+        Me.fn_TextBox2.Location = New System.Drawing.Point(131, 90)
+        Me.fn_TextBox2.Name = "fn_TextBox2"
+        Me.fn_TextBox2.Size = New System.Drawing.Size(209, 22)
+        Me.fn_TextBox2.TabIndex = 3
         '
         'Label2
         '
@@ -227,12 +228,12 @@ Partial Class reg_data
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "First Name:"
         '
-        'TextBox1
+        'id_TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(131, 57)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(209, 22)
-        Me.TextBox1.TabIndex = 1
+        Me.id_TextBox1.Location = New System.Drawing.Point(131, 57)
+        Me.id_TextBox1.Name = "id_TextBox1"
+        Me.id_TextBox1.Size = New System.Drawing.Size(209, 22)
+        Me.id_TextBox1.TabIndex = 1
         '
         'Label1
         '
@@ -248,7 +249,7 @@ Partial Class reg_data
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(556, 553)
-        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.info_groupbox)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MaximizeBox = False
@@ -257,32 +258,32 @@ Partial Class reg_data
         Me.Text = "Register Data"
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
+        Me.info_groupbox.ResumeLayout(False)
+        Me.info_groupbox.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents ToolStrip1 As ToolStrip
-    Friend WithEvents ToolStripButton1 As ToolStripButton
+    Friend WithEvents new_butt As ToolStripButton
     Friend WithEvents ToolStripSeparator2 As ToolStripSeparator
-    Friend WithEvents ToolStripButton2 As ToolStripButton
+    Friend WithEvents save_butt As ToolStripButton
     Friend WithEvents ToolStripSeparator1 As ToolStripSeparator
-    Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents info_groupbox As GroupBox
+    Friend WithEvents comment_TextBox8 As TextBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents address_TextBox7 As TextBox
     Friend WithEvents Label7 As Label
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents email_TextBox6 As TextBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents cell_TextBox5 As TextBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents tel_TextBox4 As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents ln_TextBox3 As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents fn_TextBox2 As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents id_TextBox1 As TextBox
     Friend WithEvents Label1 As Label
 End Class
