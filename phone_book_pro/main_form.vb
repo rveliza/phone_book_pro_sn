@@ -26,7 +26,21 @@
         Me.Process1.Start()
     End Sub
 
-    Private Sub main_form_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+    Private Sub main_form_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
+        If (e.KeyCode = Keys.F2) Then
+            ToolStripButton1_Click(sender, e)
+        End If
+        If (e.KeyCode = Keys.F3) Then
+            ToolStripButton2_Click(sender, e)
+        End If
+        If (e.KeyCode = Keys.F4) Then
+            ToolStripButton3_Click(sender, e)
+        End If
+        If (e.KeyCode = Keys.F5) Then
+            ToolStripButton4_Click(sender, e)
+        End If
+        If (e.KeyCode = Keys.Escape) Then
+            ToolStripButton5_Click(sender, e)
+        End If
     End Sub
 End Class

@@ -35,9 +35,10 @@ Partial Class About_us
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(175, 44)
+        Me.Label1.Location = New System.Drawing.Point(131, 36)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(72, 22)
+        Me.Label1.Size = New System.Drawing.Size(60, 18)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Avcorp"
         '
@@ -45,9 +46,10 @@ Partial Class About_us
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(127, 118)
+        Me.Label2.Location = New System.Drawing.Point(95, 96)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(190, 18)
+        Me.Label2.Size = New System.Drawing.Size(154, 15)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Product Name: AvCorpPlus"
         '
@@ -55,9 +57,10 @@ Partial Class About_us
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(126, 156)
+        Me.Label3.Location = New System.Drawing.Point(94, 127)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(150, 18)
+        Me.Label3.Size = New System.Drawing.Size(126, 15)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Version: 2023.02.16.1"
         '
@@ -65,9 +68,10 @@ Partial Class About_us
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(126, 203)
+        Me.Label4.Location = New System.Drawing.Point(94, 165)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(159, 18)
+        Me.Label4.Size = New System.Drawing.Size(129, 15)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Web Site: Google.com"
         '
@@ -75,34 +79,37 @@ Partial Class About_us
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(126, 249)
+        Me.Label5.Location = New System.Drawing.Point(94, 202)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(182, 18)
+        Me.Label5.Size = New System.Drawing.Size(151, 15)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Programmer: Reyner Veliz"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(180, 345)
+        Me.Label6.Location = New System.Drawing.Point(135, 280)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(67, 16)
+        Me.Label6.Size = New System.Drawing.Size(58, 13)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "2022-2023"
         '
         'Panel1
         '
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel1.Location = New System.Drawing.Point(1, 305)
+        Me.Panel1.Location = New System.Drawing.Point(1, 248)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(592, 1)
+        Me.Panel1.Size = New System.Drawing.Size(444, 1)
         Me.Panel1.TabIndex = 6
         '
         'About_us
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(436, 426)
+        Me.ClientSize = New System.Drawing.Size(327, 346)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
@@ -110,10 +117,10 @@ Partial Class About_us
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "About_us"
+        Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "About Us"
         Me.ResumeLayout(False)

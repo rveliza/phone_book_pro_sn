@@ -45,7 +45,7 @@ Partial Class main_form
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripSeparator3, Me.ToolStripButton2, Me.ToolStripSeparator2, Me.ToolStripButton3, Me.ToolStripSeparator4, Me.ToolStripButton4, Me.ToolStripButton5, Me.ToolStripSeparator1, Me.ToolStripSeparator5})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(948, 71)
+        Me.ToolStrip1.Size = New System.Drawing.Size(711, 58)
         Me.ToolStrip1.TabIndex = 0
         Me.ToolStrip1.Text = "ToolStrip1"
         '
@@ -55,13 +55,13 @@ Partial Class main_form
         Me.ToolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Size = New System.Drawing.Size(151, 68)
-        Me.ToolStripButton1.Text = "Register Data"
+        Me.ToolStripButton1.Size = New System.Drawing.Size(143, 55)
+        Me.ToolStripButton1.Text = "Register Data F2"
         '
         'ToolStripSeparator3
         '
         Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
-        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 71)
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 58)
         '
         'ToolStripButton2
         '
@@ -69,13 +69,13 @@ Partial Class main_form
         Me.ToolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
-        Me.ToolStripButton2.Size = New System.Drawing.Size(105, 68)
-        Me.ToolStripButton2.Text = "Search"
+        Me.ToolStripButton2.Size = New System.Drawing.Size(107, 55)
+        Me.ToolStripButton2.Text = "Search f3"
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 71)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 58)
         '
         'ToolStripButton3
         '
@@ -83,13 +83,13 @@ Partial Class main_form
         Me.ToolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton3.Name = "ToolStripButton3"
-        Me.ToolStripButton3.Size = New System.Drawing.Size(128, 68)
-        Me.ToolStripButton3.Text = "Calculator"
+        Me.ToolStripButton3.Size = New System.Drawing.Size(128, 55)
+        Me.ToolStripButton3.Text = "Calculator F4"
         '
         'ToolStripSeparator4
         '
         Me.ToolStripSeparator4.Name = "ToolStripSeparator4"
-        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 71)
+        Me.ToolStripSeparator4.Size = New System.Drawing.Size(6, 58)
         '
         'ToolStripButton4
         '
@@ -97,8 +97,8 @@ Partial Class main_form
         Me.ToolStripButton4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ToolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton4.Name = "ToolStripButton4"
-        Me.ToolStripButton4.Size = New System.Drawing.Size(102, 68)
-        Me.ToolStripButton4.Text = "About"
+        Me.ToolStripButton4.Size = New System.Drawing.Size(107, 55)
+        Me.ToolStripButton4.Text = "About F5"
         '
         'ToolStripButton5
         '
@@ -107,19 +107,19 @@ Partial Class main_form
         Me.ToolStripButton5.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ToolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton5.Name = "ToolStripButton5"
-        Me.ToolStripButton5.Size = New System.Drawing.Size(85, 68)
-        Me.ToolStripButton5.Text = "Exit"
+        Me.ToolStripButton5.Size = New System.Drawing.Size(109, 55)
+        Me.ToolStripButton5.Text = "Exit (ESC)"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 71)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 58)
         '
         'ToolStripSeparator5
         '
         Me.ToolStripSeparator5.Name = "ToolStripSeparator5"
-        Me.ToolStripSeparator5.Size = New System.Drawing.Size(6, 71)
+        Me.ToolStripSeparator5.Size = New System.Drawing.Size(6, 58)
         '
         'Process1
         '
@@ -133,14 +133,15 @@ Partial Class main_form
         '
         'main_form
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(948, 625)
+        Me.ClientSize = New System.Drawing.Size(711, 508)
         Me.Controls.Add(Me.ToolStrip1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.IsMdiContainer = True
-        Me.Margin = New System.Windows.Forms.Padding(4)
+        Me.KeyPreview = True
         Me.MaximizeBox = False
         Me.Name = "main_form"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
